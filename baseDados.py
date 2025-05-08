@@ -23,6 +23,40 @@ try:
 except Exception as e:
     print(e)
 
+
+# Lista de anos e índices correspondentes
+anos = {
+    2013: 20,
+    2014: 18,
+    2015: 20,
+    2016: 23,
+    2017: 21,
+    2018: 21,
+    2019: 28,
+    2020: 32,
+    2021: 32,
+    2022: 32,
+    2023: 32,
+    2024: 32
+}
+
+tabelao = []
+
+for ano, idx in anos.items():
+    try:
+        df = pd.read_csv(f"baseDados/coletaLixoSP_{ano}.csv", sep=';')
+        linha = df.iloc[idx].to_frame(name=str(ano))
+        tabelao.append(linha)
+    except Exception as e:
+        print(f"Erro ao processar {ano}: {e}")
+
+# Concatenar todas as colunas pelo índice
+dfTabelao = pd.concat(tabelao, axis=1)
+
+# Exportar para Excel
+dfTabelao.to_excel("./baseDados/basesLimpas.xlsx", index=False)
+
+"""
 df2013 = pd.DataFrame(ano2013)
 coluna2013 = df2013.iloc[20]
 dfTabelao["2013"] = pd.DataFrame(coluna2013)
@@ -70,4 +104,5 @@ dfTabelao["2023"] = pd.DataFrame(coluna2023)
 df2024 = pd.DataFrame(ano2024)
 coluna2024 = df2024.iloc[33]
 dfTabelao["2024"] = pd.DataFrame(coluna2024)
+"""
 
