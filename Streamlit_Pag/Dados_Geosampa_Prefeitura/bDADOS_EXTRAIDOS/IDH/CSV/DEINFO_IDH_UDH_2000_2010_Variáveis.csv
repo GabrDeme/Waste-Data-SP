@@ -1,0 +1,498 @@
+NOME DO ARQUIVO,VARIAVEL,NOME DA VARIAVEL,DESCRICAO DA VARIAVEL,FONTE,TIPO,TAMANHO,SIGILO
+DEINFO_IDH_UDH_2000_2010,COD_ID,identificação UDH,Identifica a UDH,IPEA,TEXTO,13,0
+DEINFO_IDH_UDH_2000_2010,NOME_UDH,Nome da UDH,Nome da UDH,IPEA,TEXTO,80,0
+DEINFO_IDH_UDH_2000_2010,CODMUN6,Código do Município,Código utilizado pelo IBGE para identificação do município.,IPEA,VALOR,6.0,0
+DEINFO_IDH_UDH_2000_2010,NOME_MUN,Nome do município,Nome do município.,IPEA,TEXTO,15,0
+DEINFO_IDH_UDH_2000_2010,CODUF,Código da Unidade da Federação,Código utilizado pelo IBGE para identificação do estado.,IPEA,VALOR,2.0,0
+DEINFO_IDH_UDH_2000_2010,NOME_UF,Sigla da Unidade da Federação,Sigla da Unidade da Federação.,IPEA,TEXTO,2,0
+DEINFO_IDH_UDH_2000_2010,CODRM,Código da Região Metropolitana,Código da Região Metropolitana,IPEA,VALOR,5.0,0
+DEINFO_IDH_UDH_2000_2010,NOME_RM,Nome da Região Metropolitana,Nome da Região Metropolitana,IPEA,TEXTO,17,0
+DEINFO_IDH_UDH_2000_2010,ANO,Ano CENSO IBGE,2000 ou 2010,IPEA,VALOR,4.0,0
+DEINFO_IDH_UDH_2000_2010,ESPVIDA,Esperança de vida ao nascer,"Número médio de anos que as pessoas deverão viver a partir do nascimento, se permanecerem constantes ao longo da vida o nível e o padrão de mortalidade por idade prevalecentes no ano do Censo.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,FECTOT,Taxa de fecundidade total,Número médio de filhos que uma mulher deverá ter ao terminar o período reprodutivo (15 a 49 anos de idade).,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,MORT1,Mortalidade até um ano de idade,Número de crianças que não deverão sobreviver ao primeiro ano de vida em cada 1000 crianças nascidas vivas.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,MORT5,Mortalidade até cinco anos de idade,"Probabilidade de morrer entre o nascimento e a idade exata de 5 anos, por 1000 crianças nascidas vivas.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,SOBRE40,Probabilidade de sobrevivência até 40 anos,"Probabilidade de uma criança recém-nascida viver até os 40 anos, se permanecerem constantes ao longo da vida o nível e o padrão de mortalidade por idade prevalecentes no ano do Censo.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,SOBRE60,Probabilidade de sobrevivência até 60 anos,"Probabilidade de uma criança recém-nascida viver até os 60 anos, se permanecerem constantes ao longo da vida o nível e o padrão de mortalidade por idade prevalecentes no ano do Censo.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RAZDEP,Percentual da população de menos de 15 anos e da população de 65 anos e mais em relação à população de 15 a 64 anos,Razão de dependência é medida pela razão entre o número de pessoas com 14 anos ou menos e de 65 anos ou mais de idade (população dependente) e o número de pessoas com idade de 15 a 64 anos (população potencialmente ativa) multiplicado por 100.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ENV,Taxa de envelhecimento,Razão entre a população de 65 anos ou mais de idade e a população total multiplicado por 100.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,E_ANOSESTUDO,Expectativa de anos de estudo aos 18 anos de idade,"Número médio de anos de estudo que uma geração de crianças que ingressa na escola deverá completar ao atingir 18 anos de idade, se os padrões atuais se mantiverem ao longo de sua vida escolar.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF11A14,Taxa de analfabetismo da população de 11 a 14 anos de idade,"Razão entre a população de 11 a 14 anos de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF15A17,Taxa de analfabetismo da população de 15 a 17 anos de idade,"Razão entre a população de 15 a 17 anos de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF15M,Taxa de analfabetismo da população de 15 anos ou mais de idade,"Razão entre a população de 15 anos ou mais de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF18A24,Taxa de analfabetismo da população de 18 a 24 anos de idade,"Razão entre a população de 18 a 24 anos de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF18M,Taxa de analfabetismo da população de 18 anos ou mais de idade,"Razão entre a população de 18 anos ou mais de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF25A29,Taxa de analfabetismo da população de 25 a 29 anos de idade,"Razão entre a população de 25 a 29 anos de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ANALF25M,Taxa de analfabetismo da população de 25 anos ou mais de idade,"Razão entre a população de 25 anos ou mais de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATRASO_2_BASICO,Percentual da população de 6 a 17 anos de idade frequentando o ensino básico que tem 2 anos ou mais de atraso idade-série.,Razão entre o número de pessoas de 6 a 17 anos frequentando o ensino básico REGULAR SERIADO (fundamental + médio) com atraso idade-série de 2 anos ou mais e o número total de pessoas nessa faixa etária frequentando esse nível de ensino multiplicado por 10,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATRASO_2_FUND,Percentual da população de 6 a 14 anos de idade frequentando o ensino fundamental que tem 2 anos ou mais de atraso idade-série.,"Razão entre o número de pessoas de 6 a 14 anos frequentando o ensino fundamental REGULAR SERIADO com atraso idade-série de 2 anos ou mais e o número total de pessoas nessa faixa etária frequentando esse nível de ensino, multiplicada por 100. O atraso idad",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBBAS,Taxa de frequência bruta ao ensino   básico REGULAR SERIADO ,Razão entre o número total de pessoas de qualquer idade frequentando o ensino básico (fundamental ou médio - REGULAR SERIADO ) e a população na faixa etária de 6 a 17 anos multiplicado por 100. As pessoas frequentando a 4ª série do ensino médio foram cons,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBBAS_TUDO,Taxa de frequência bruta ao ensino   básico,"Razão entre o número total de pessoas de qualquer idade frequentando o ensino básico (fundamental ou médio) regular seriado ou não seriado, Educação de Jovens e Adultos - EJA- ou supletivo dos ensinos fundamental ou médio e a população na faixa etária de ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBFUND,Taxa de frequência bruta ao ensino   fundamental REGULAR SERIADO ,"Razão entre o número total de pessoas de qualquer idade frequentando o ensino fundamental REGULAR SERIADO e a população na faixa etária de 6 a 14 anos, multiplicada por 100. As pessoas de 6 anos ou mais frequentando a pré-escola ou classe de alfabetização",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBFUND_TUDO,Taxa de frequência bruta ao ensino   fundamental,"Razão entre o número total de pessoas de qualquer idade frequentando o ensino fundamental regular seriado ou não seriado, Educação de Jovens e Adultos - EJA - ou supletivo do ensino fundamental e a população na faixa etária de 6 a 14 anos, multiplicada po",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBMED,Taxa de frequência bruta ao ensino  médio REGULAR SERIADO ,"Razão entre o número total de pessoas de qualquer idade frequentando o ensino médio REGULAR SERIADO e a população na faixa etária de 15 a 17 anos, multiplicada por 100. As pessoas frequentando a 4ª série do ensino médio foram consideradas como tendo concl",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBMED_TUDO,Taxa de frequência bruta ao ensino   médio,"Razão entre o número total de pessoas de qualquer idade frequentando o ensino médio regular seriado ou não seriado, Educação de Jovens e Adultos - EJA - ou supletivo do ensino médio e a população na faixa etária de 15 a 17 anos, multiplicada por 100. As p",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FBSUPER,Taxa de frequência bruta ao ensino   superior,"Razão entre o número total de pessoas de qualquer idade frequentando o ensino superior (graduação, especialização, mestrado ou doutorado) e a população na faixa etária de 18 a 24 anos, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLBAS,Taxa de frequência líquida ao ensino   básico REGULAR SERIADO ,"Razão entre o número de pessoas na faixa etária de 6 a 17 anos frequentando o ensino básico (fundamental ou médio - REGULAR SERIADO ) e a população total dessa mesma faixa etária, multiplicada por 100. As pessoas de 6 a 17 anos frequentando a pré-escola o",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLBAS_TUDO,Taxa de frequência líquida ao ensino   básico ,"Razão entre o número de pessoas na faixa etária de 6 a 17 anos frequentando o ensino básico (fundamental ou médio) regular seriado ou não seriado, Educação de Jovens e Adultos - EJA - ou supletivo dos ensinos fundamental ou médio, ou que já tenham concluí",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLFUND,Taxa de frequência líquida ao ensino   fundamental REGULAR SERIADO ,"Razão entre o número de pessoas na faixa etária de 6 a 14 anos frequentando o ensino fundamental REGULAR SERIADO  e a população total dessa mesma faixa etária, multiplicada por 100. As pessoas de 6 a 14 anos frequentando a pré-escola ou classe de alfabeti",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLFUND_TUDO,Taxa de frequência líquida ao ensino   fundamental,"Razão entre o número de pessoas na faixa etária de 6 a 14 anos frequentando o ensino fundamental regular seriado ou não seriado, Educação de Jovens e Adultos - EJA - ou supletivo do ensino fundamental, ou que já tenham concluído esse nível de ensino e a p",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLMED,Taxa de frequência líquida ao ensino   médio REGULAR SERIADO ,"Razão entre o número de pessoas na faixa etária de 15 a 17 anos frequentando o ensino médio REGULAR SERIADO  e a população total dessa mesma faixa etária, multiplicada por 100. As pessoas de 15 a 17 anos frequentando a 4ª série do ensino médio foram consi",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLMED_TUDO,Taxa de frequência líquida ao ensino   médio,"Razão entre o número de pessoas na faixa etária de 15 a 17 anos frequentando o ensino médio regular seriado ou não seriado, Educação de Jovens e Adultos - EJA - ou supletivo do ensino médio, ou que já tenham concluído esse nível de ensino e a população to",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FLSUPER,Taxa de frequência líquida ao ensino   superior,"Razão entre o número de pessoas na faixa etária de 18 a 24 anos frequentando o ensino superior (graduação, especialização, mestrado ou doutorado) e a população total dessa mesma faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ0A5,Taxa de atendimento escolar da população até 5 anos de idade ,"Razão entre a população de 0 a 5 anos de idade que estava frequentando a escola, em qualquer nível ou série, e a população total nesta faixa etária, multiplicada por 100. ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ15A17,Taxa de atendimento escolar da população de 15 a 17 anos de idade ,"Razão entre a população de 15 a 17 anos de idade que estava frequentando a escola, em qualquer nível ou série (exceto pré-vestibular), e a população total nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ18A24,Taxa de atendimento escolar da população de 18 a 24 anos de idade ,"Razão entre a população de 18 a 24 anos de idade que estava frequentando a escola, em qualquer nível ou série (exceto pré-vestibular), e a população total nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ25A29,Taxa de atendimento escolar da população de 25 a 29 anos de idade ,"Razão entre a população de 25 a 29 anos de idade que estava frequentando a escola, em qualquer nível ou série (exceto pré-vestibular), e a população total nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ5a6,Percentual da população de 5 a 6 anos de idade frequentando a escola,"Razão entre a população de 5 a 6 anos de idade que estava frequentando a escola, em qualquer nível ou série, e a população total nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ6A14,Taxa de atendimento escolar da população de 6 a 14 anos de idade ,"Razão entre a população de 6 a 14 anos de idade que estava frequentando a escola, em qualquer nível ou série, e a população total nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQ6A17,Taxa de atendimento escolar da população de 6 a 17 anos de idade ,"Razão entre população de 6 a 17 anos de idade que estava frequentando a escola, em qualquer nível ou série (exceto pré-vestibular), e a população total nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQFUND1517,Percentual da população de 15 a 17 anos de idade frequentando o ensino fundamental REGULAR SERIADO,"Razão entre a população de 15 a 17 anos de idade frequentando o ensino fundamental REGULAR SERIADO e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQFUND1824,Percentual da população de 18 a 24 anos de idade frequentando o ensino fundamental REGULAR SERIADO,"Razão entre a população de 18 a 24 anos frequentando o ensino fundamental REGULAR SERIADO e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FREQMED1824,Percentual da população de 18 a 24 anos de idade frequentando o ensino médio REGULAR SERIADO,"Razão entre a população de 18 a 24 anos frequentando o ensino médio REGULAR SERIADO e o total de pessoas nesta faixa etária, multiplicada por 100. As pessoas de 18 a 24 anos frequentando a 4a. série do ensino médio foram consideradas como já tendo concluí",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUND11a13,Percentual da população de 11 a 13 anos de idade frequentando os anos  finais do fundamental REGULAR SERIADO ou que já concluiu o fundamental,"Razão entre a população de 11 a 13 anos de idade que frequenta os anos finais do fundamental REGULAR SERIADO ou que já concluiu o fundamental (em qualquer modalidade) e a população total nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUND11a13_TUDO,Percentual da população de 11 a 13 anos de idade frequentando os anos  finais do fundamental ou que já concluiu o fundamental,"Razão entre a população de 11 a 13 anos de idade que frequenta os anos finais do fundamental regular seriado, ou Educação de Jovens e Adultos - EJA - ou supletivo do ensino fundamental, ou que já concluiu o fundamental (em qualquer modalidade) e a populaç",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUND15A17,Percentual da população de 15 a 17 anos com fundamental completo,"Razão entre a população de 15 a 17 anos de idade que concluiu o ensino fundamental, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo), e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUND18A24,Percentual da população de 18 a 24 anos com fundamental completo,"Razão entre a população de 18 a 24 anos de idade que concluiu o ensino fundamental, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo), e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUND18M,Percentual da população de 18 anos ou mais com fundamental completo,"Razão entre a população de 18 anos ou mais de idade que concluiu o ensino fundamental, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo), e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUND25M,Percentual da população de 25 anos ou mais com fundamental completo,"Razão entre a população de 25 anos ou mais de idade que concluiu o ensino fundamental, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo), e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_MED18a20,Percentual da população de 18 a 20 anos de idade com o ensino médio completo,"Razão entre a população de 18 a 20 anos de idade que já concluiu o ensino médio em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo), e o total de pessoas nesta faixa etária, multiplicada por 100. As pessoas de 18 a 20 anos fre",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_MED18A24,Percentual da população de 18 a 24 anos com ensino médio completo,"Razão entre a população de 18 a 24 anos de idade que concluiu o ensino médio, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo) e o total de pessoas nesta faixa etária, multiplicada por 100. Foram consideradas como tendo con",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_MED18M,Percentual da população de 18 anos ou mais com ensino médio completo,"Razão entre a população de 18 anos ou mais de idade que concluiu o ensino médio, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo) e o total de pessoas nesta faixa etária, multiplicada por 100. Foram consideradas como tendo ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_MED25M,Percentual da população de 25 anos ou mais com ensino médio completo,"Razão entre a população de 25 anos ou mais de idade que concluiu o ensino médio, em qualquer de suas modalidades (regular seriado, não seriado, EJA ou supletivo) e o total de pessoas nesta faixa etária, multiplicada por 100. Foram consideradas como tendo ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_SUPER25M,Percentual da população de 25 anos ou mais com superior completo,"Razão entre a população de 25 anos ou mais de idade que concluiu pelo menos a graduação do ensino superior e o total de pessoas nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,CORTE1,Renda domiciliar per capita máxima do quinto mais pobre,"Valor do 1º quintil da distribuição de indivíduos segundo a renda domiciliar per capita, ou seja, valor máximo da renda domiciliar per capita dos indivíduos pertencentes ao quinto mais pobre dessa distribuição. Valores em reais de 01/agosto/2010.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,CORTE2,Renda domiciliar per capita máxima do 2º quinto mais pobre,"Valor do 2º quintil da distribuição de indivíduos segundo a renda domiciliar per capita, ou seja, valor máximo da renda domiciliar per capita dos indivíduos pertencentes ao 2º quinto mais pobre dessa distribuição. Valores em reais de 01/agosto/2010.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,CORTE3,Renda domiciliar per capita máxima do 3º quinto mais pobre,"Valor do 3º quintil da distribuição de indivíduos segundo a renda domiciliar per capita, ou seja, valor máximo da renda domiciliar per capita dos indivíduos pertencentes ao 3º quinto mais pobre dessa distribuição. Valores em reais de 01/agosto/2010.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,CORTE4,Renda domiciliar per capita máxima do 4º quinto mais pobre,"Valor do 4º quintil da distribuição de indivíduos segundo a renda domiciliar per capita, ou seja, valor máximo da renda domiciliar per capita dos indivíduos pertencentes ao 4º quinto mais pobre dessa distribuição. Valores em reais de 01/agosto/2010.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,CORTE9,Renda domiciliar per capita mínima do décimo mais rico,"Valor do 9º decil da distribuição de indivíduos segundo a renda domiciliar per capita, ou seja, valor mínimo da renda domiciliar per capita dos indivíduos pertencentes ao décimo mais rico dessa distribuição. Valores em reais de 01/agosto/2010.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,GINI,Índice de Gini,Mede o grau de desigualdade existente na distribuição de indivíduos segundo a renda domiciliar per capita. Seu valor é 0 quando não há desigualdade (a renda domiciliar per capita de todos os indivíduos tem o mesmo valor) e tende a 1 à medida que a desigua,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PIND,Proporção de extremamente pobres,"Proporção dos indivíduos com renda domiciliar per capita igual ou inferior a R$ 70,00 mensais, em reais de agosto de 2010. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PINDCRI,Proporção de crianças extremamente pobres,"Proporção dos indivíduos com até 14 anos de idade que têm renda domiciliar per capita igual ou inferior a R$ 70,00 mensais, em reais de agosto de 2010. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PMPOB,Proporção de pobres,"Proporção dos indivíduos com renda domiciliar per capita igual ou inferior a R$ 140,00 mensais, em reais de agosto de 2010. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PMPOBCRI,Proporção de crianças pobres,"Proporção dos indivíduos com até 14 anos de idade que têm renda domiciliar per capita igual ou inferior a R$ 140,00 mensais, em reais de agosto de 2010. O universo de indivíduos é limitado àqueles com até 14 anos e que vivem em domicílios particulares per",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PPOB,Proporção de vulneráveis à pobreza,"Proporção dos indivíduos com renda domiciliar per capita igual ou inferior a R$ 255,00 mensais, em reais de agosto de 2010, equivalente a 1/2 salário mínimo nessa data. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares perma",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PPOBCRI,Proporção de crianças vulneráveis à pobreza,"Proporção dos indivíduos com até 14 anos de idade que têm renda domiciliar per capita igual ou inferior a R$ 255,00 mensais, em reais de agosto de 2010, equivalente a 1/2 salário mínimo nessa data. O universo de indivíduos é limitado àqueles com até 14 an",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PREN10RICOS,Percentual da renda total apropriada pelos 10% da população com maior renda domiciliar per capita,Percentual da renda total apropriada pelos indivíduos pertencentes ao décimo mais rico da distribuição dos indivíduos segundo a renda domiciliar per capita. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PREN20,Percentual da renda total apropriada pelos 20% da população com menor renda domiciliar per capita,Percentual da renda total apropriada pelos indivíduos pertencentes ao quinto mais pobre da distribuição dos indivíduos segundo a renda domiciliar per capita. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PREN20RICOS,Percentual da renda total apropriada pelos 20% da população com maior renda domiciliar per capita,Percentual da renda total apropriada pelos indivíduos pertencentes ao quinto mais rico da distribuição dos indivíduos segundo a renda domiciliar per capita. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PREN40,Percentual da renda total apropriada pelos 40% da população com menor renda domiciliar per capita,Percentual da renda total apropriada pelos indivíduos pertencentes aos dois quintos mais pobres da distribuição dos indivíduos segundo a renda domiciliar per capita. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanen,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PREN60,Percentual da renda total apropriada pelos 60% da população com menor renda domiciliar per capita,Percentual da renda total apropriada pelos indivíduos pertencentes aos três quintos mais pobres da distribuição dos indivíduos segundo a renda domiciliar per capita. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanen,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PREN80,Percentual da renda total apropriada pelos 80% da população com menor renda domiciliar per capita,Percentual da renda total apropriada pelos indivíduos pertencentes aos quatro quintos mais pobres da distribuição dos indivíduos segundo a renda domiciliar per capita. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares perman,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PRENTRAB,Percentual da renda proveniente de rendimentos do trabalho,"Participação percentual das rendas provenientes do trabalho (principal e outros) na renda total, considerando-se apenas as pessoas que vivem em domicílios particulares permanentes. ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,R1040,Razão 10% mais ricos / 40% mais pobres,Medida do grau de desigualdade existente na distribuição de indivíduos segundo a renda domiciliar per capita. Compara a renda per capita média dos indivíduos pertencentes ao décimo mais rico dessa distribuição com a renda capita média dos indivíduos perte,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,R2040,Razão 20% mais ricos / 40% mais pobres,Medida do grau de desigualdade existente na distribuição de indivíduos segundo a renda domiciliar per capita. Compara a renda per capita média dos indivíduos pertencentes ao quinto mais rico dessa distribuição com a renda per capita média dos indivíduos p,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC,Renda per capita média,Razão entre o somatório da renda de todos os indivíduos residentes em domicílios particulares permanentes e o número total desses indivíduos. Valores em reais de 01/agosto de 2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC1,Renda domiciliar per capita média do quinto mais pobre,Média da renda domiciliar per capita dos indivíduos pertencentes ao quinto mais pobre da distribuição de indivíduos segundo a renda domiciliar per capita. Valores em reais de 01/08/2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC10,Renda domiciliar per capita média do décimo mais rico,Média da renda domiciliar per capita dos indivíduos pertencentes ao décimo mais rico da distribuição de indivíduos segundo a renda domiciliar per capita. Valores em reais de 01/08/2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC2,Renda domiciliar per capita  média do 2º quinto mais pobre,Média da renda domiciliar per capita dos indivíduos pertencentes ao 2º quinto mais pobre da distribuição de indivíduos segundo a renda domiciliar per capita. Valores em reais de 01/08/2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC3,Renda domiciliar per capita  média do 3º quinto mais pobre,Média da renda domiciliar per capita dos indivíduos pertencentes ao 3º quinto mais pobre da distribuição de indivíduos segundo a renda domiciliar per capita. Valores em reais de 01/08/2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC4,Renda domiciliar per capita  média do 4º quinto mais pobre,Média da renda domiciliar per capita dos indivíduos pertencentes ao 4º quinto mais pobre da distribuição de indivíduos segundo a renda domiciliar per capita. Valores em reais de 01/08/2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPC5,Renda domiciliar per capita média do quinto mais rico,Média da renda domiciliar per capita dos indivíduos pertencentes ao quinto mais rico da distribuição de indivíduos segundo a renda domiciliar per capita. Valores em reais de 01/08/2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RDPCT,"Renda domiciliar per capita média, exceto renda nula",Razão entre o somatório da renda domiciliar per capita de todos os indivíduos residentes em domicílios particulares permanentes com renda não-nula e o número total desses indivíduos. Valores em reais de 01/agosto de 2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RIND,Renda domiciliar per capita média dos extremamente pobres,"Média da renda domiciliar per capita das pessoas com renda domiciliar per capita igual ou inferior a R$ 70,00 mensais, a preços de agosto de 2010. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RMPOB,Renda domiciliar per capita média dos pobres,"Média da renda domiciliar per capita das pessoas com renda domiciliar per capita igual ou inferior a R$ 140,00 mensais, a preços de agosto de 2010. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RPOB,Renda domiciliar per capita média dos vulneraveis à pobreza,"Média da renda domiciliar per capita das pessoas com renda domiciliar per capita igual ou inferior a R$ 255,00 mensais, a preços de agosto de 2010. O universo de indivíduos é limitado àqueles que vivem em domicílios particulares permanentes.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,THEIL,Índice de Theil - L,"Mede a desigualdade na distribuição de indivíduos segundo a renda domiciliar per capita, excluídos aqueles com renda domiciliar per capita nula. É o logaritmo da razão entre as médias aritmética e geométrica da renda domiciliar per capita dos indivíduos, ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_AGRO,Percentual dos ocupados no setor agropecuário,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas no setor agropecuário e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_COM,Percentual dos ocupados no setor comércio,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas no setor de comércio e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_CONSTR,Percentual dos ocupados no setor de construção ,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas no setor de construção e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_EXTR,Percentual dos ocupados no setor extrativo mineral,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas no setor extrativo mineral e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_SERV,Percentual dos ocupados no setor serviços,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas no setor de serviços e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_SIUP,Percentual dos ocupados nos setores de serviços industriais de utilidade pública,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas nos setor de serviços industriais de utilidade pública e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100. Esse setor inclui as atividades constantes das seçõe",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_TRANSF,Percentual dos ocupados na indústria de transformação,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas na indústria de transformação e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,CPR,Percentual de ocupados de 18 anos ou mais que são trabalhadores por conta própria.,"Razão entre o número de trabalhadores por conta própria de 18 anos ou mais de idade e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,EMP,Percentual de ocupados de 18 anos ou mais que são empregadores,"Razão entre o número de empregadores de 18 anos ou mais de idade e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_FORMAL,Grau de formalização do trabalho das pessoas ocupadas,"Razão entre o número de pessoas de 18 anos ou mais formalmente ocupadas e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100. Foram considerados como formalmente ocupados os empregados com carteira de trabalho assinada, os militar",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,TRABCC,Percentual de ocupados de 18 anos ou mais que são empregados com carteira ,"Razão entre o número de empregados de 18 anos ou mais de idade com carteira de trabalho assinada e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,TRABPUB,Percentual de ocupados de 18 anos ou mais que são trabalhadores do setor público.,"Razão entre o número de trabalhadores do setor público de 18 anos ou mais de idade e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100. Os trabalhadores do setor público incluem os empregados pelo regime jurídico dos funcionários",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,TRABSC,Percentual de ocupados de 18 anos ou mais que são empregados sem carteira ,"Razão entre o número de empregados de 18 anos ou mais de idade sem carteira de trabalho assinada e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_FUND,Percentual dos ocupados com fundamental completo,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas que já concluíram o ensino fundamental (regular seriado, regular não seriado, EJA ou supletivo) e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_MED,Percentual dos ocupados com médio completo,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas que já concluíram o ensino médio (regular seriado, regular não seriado, EJA ou supletivo) e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100. Foram considerada",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,P_SUPER,Percentual dos ocupados com superior completo,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas e que já concluíram a graduação do ensino superior e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,REN0,Percentual dos ocupados sem rendimento,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas e sem rendimento do trabalho e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,REN1,Percentual dos ocupados com rendimento de até 1 salário mínimo,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas e com rendimento mensal de todos os trabalhos inferior a 1 salário mínimo de julho de 2010 e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,REN2,Percentual dos ocupados com rendimento de até 2 salários mínimos,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas e com rendimento mensal de todos os trabalhos inferior a 2 salários mínimos de julho de 2010 e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,REN3,Percentual dos ocupados com rendimento de até 3 salários mínimo,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas e com rendimento mensal de todos os trabalhos inferior a 3 salários mínimos de julho de 2010 e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,REN5,Percentual dos ocupados com rendimento de até 5 salários mínimo,"Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas e com rendimento mensal de todos os trabalhos inferior a 5 salários mínimos de julho de 2010 e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,RENOCUP,Rendimento médio dos ocupados,Média dos rendimentos de todos os trabalhos das pessoas ocupadas de 18 anos ou mais de idade. Valores em reais de agosto de 2010.,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,THEILtrab,Índice de Theil-L dos rendimentos do trabalho - 18 anos ou mais de idade,"Mede a desigualdade na distribuição de indivíduos de 18 anos ou mais de idade ocupados, segundo o rendimento de todos os trabalhos, excluídos aqueles sem rendimento do trabalho. É o logaritmo da razão entre as médias aritmética e geométrica do rendimento ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATIV,Taxa de atividade das pessoas de 10 anos ou mais de idade,"Razão entre as pessoas de 10 anos ou mais de idade que eram economicamente ativas, ou seja, que estavam ocupadas ou desocupadas na semana de referência do Censo e o total de pessoas nesta faixa etária, multiplicada por 100. Considera-se desocupada a pesso",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATIV1014,Taxa de atividade das pessoas de 10 a  14 anos de idade,"Razão entre as pessoas de 10 a 14 anos de idade que eram economicamente ativas, ou seja, que estavam ocupadas ou desocupadas na semana de referência do Censo e o total de pessoas nesta faixa etária, multiplicada por 100. Considera-se desocupada a pessoa q",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATIV1517,Taxa de atividade das pessoas de 15 a  17 anos de idade,"Razão entre as pessoas de 15 a 17 anos de idade que eram economicamente ativas, ou seja, que estavam ocupadas ou desocupadas na semana de referência do Censo e o total de pessoas nesta faixa etária, multiplicada por 100. Considera-se desocupada a pessoa q",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATIV1824,Taxa de atividade das pessoas de 18 a 24 anos de idade,"Razão entre as pessoas de 18 a 24 anos de idade que eram economicamente ativas, ou seja, que estavam ocupadas ou desocupadas na semana de referência do Censo e o total de pessoas nesta faixa etária, multiplicada por 100. Considera-se desocupada a pessoa q",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATIV18M,Taxa de atividade das pessoas de 18 anos ou mais de idade,"Razão entre as pessoas de 18 anos ou mais de idade que eram economicamente ativas, ou seja, que estavam ocupadas ou desocupadas na semana de referência do Censo e o total de pessoas nesta faixa etária, multiplicada por 100. Considera-se desocupada a pesso",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_ATIV2529,Taxa de atividade das pessoas de 25 a 29 anos de idade,"Razão entre as pessoas de 25 a 29 anos de idade que eram economicamente ativas, ou seja, que estavam ocupadas ou desocupadas na semana de referência do Censo e o total de pessoas nesta faixa etária, multiplicada por 100. Considera-se desocupada a pessoa q",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DES,Taxa de desocupação da população de 10 anos ou mais de idade,"Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DES1014,Taxa de desocupação da população de 10 a 14 anos de idade,"Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DES1517,Taxa de desocupação da população de 15 a 17 anos de idade,"Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DES1824,Taxa de desocupação da população de 18 a 24 anos de idade,"Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DES18M,Taxa de desocupação da população de 18 anos ou mais de idade,"Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DES2529,Taxa de desocupação da população de 25 a 29 anos de idade,"Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_AGUA,Percentual da população que vive em domicílios com água encanada,"Razão entre a população que vive em domicílios particulares permanentes com água canalizada para um ou mais cômodos e a população total residente em domicílios particulares permanentes, multiplicada por 100. A água pode ser proveniente de rede geral, de p",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_BANAGUA,Percentual da população que vive em domicílios com banheiro e água encanada,"Razão entre a população que vive em domicílios particulares permanentes com água encanada em pelo menos um de seus cômodos e com banheiro exclusivo e a população total residente em domicílios particulares permanentes, multiplicada por 100. A água pode ser",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_DENS,Percentual da população que vive em domicílios com densidade superior a 2 pessoas por dormitório,"Razão entre a população que vive em domicílios particulares permanentes com densidade superior a 2 e a população total residente em domicílios particulares permanentes, multiplicada por 100. A densidade do domicílio é dada pela razão entre o total de mora",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_LIXO,Percentual da população que vive em domicílios urbanos com serviço de coleta de lixo,"Razão entre a população que vive em domicílios com coleta de lixo e a população total residente em domicílios particulares permanentes, multiplicada por 100. Estão incluídas as situações em que a coleta de lixo é realizada diretamente por empresa pública ",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_LUZ,Percentual da população que vive em domicílios com energia elétrica,"Razão entre a população que vive em domicílios particulares permanentes com iluminação elétrica e a população total residente em domicílios particulares permanentes, multiplicada por 100. Considera-se iluminação proveniente ou não de uma rede geral, com o",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,AGUA_ESGOTO,Percentual de pessoas em domicílios com abastecimento de água e esgotamento sanitário inadequados,Razão entre as pessoas que vivem em domicílios cujo abastecimento de água não provem de rede geral e cujo esgotamento sanitário não é realizado por rede coletora de esgoto ou fossa séptica e a população total residente em domicílios particulares permanent,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,PAREDE ,Percentual de pessoas em domicílios com paredes que não sejam de alvenaria ou madeira aparelhada,"Razão entre as pessoas que vivem em domicílios cujas paredes não são de alvenaria nem de madeira aparelhada e a população total residente em domicílios particulares permanentes, multiplicada por 100. São considerados apenas os domicílios particulares perm",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_CRIFUNDIN_TODOS,Percentual de crianças que vivem em domicílios em que nenhum dos moradores tem o ensino fundamental completo.,"Razão entre o número de crianças de até 14 anos que vivem em domicílios em que nenhum dos moradores tem o ensino fundamental completo e a população total nesta faixa etária residente em domicílios particulares permanentes, multiplicada por 100. São consid",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FORA0A5,Percentual de crianças de 0 a 5 anos que não frequenta a escola,"Razão entre o número de crianças de 0 a 5 anos de idade que não frequentam a escola e o total de crianças nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FORA6A14,Percentual de crianças de 6 a 14 anos que não frequenta a escola,"Razão entre o número de crianças de 6 a 14 anos que não frequentam a escola e o total de crianças nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUNDIN_TODOS,Percentual pessoas que vivem em domicílios em que nenhum morador tem o ensino fundamental completo.,"Razão entre as pessoas que vivem em domicílios em que nenhum dos moradores tem o ensino fundamental completo e a população total residente em domicílios particulares permanentes, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUNDIN_TODOS_MMEIO,Percentual de pessoas em domicílios vulneráveis à pobreza e em que ninguém tem fundamental completo.,Razão entre o número de pessoas que vivem em domicílios que são vulneráveis à pobreza (com renda per capita inferior a 1/2 salário mínimo de agosto de 2010) e nos quais ninguém tem o ensino fundamental completo e a população total residente em domicílios ,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_FUNDIN18MINF,Percentual de pessoas de 18 anos ou mais sem fundamental completo e em ocupação informal,"Razão entre as pessoas de 18 anos ou mais sem fundamental completo e em ocupação informal e a população total nesta faixa etária, multiplicada por 100. Ocupação informal implica que trabalham mas não são: empregados com carteira de trabalho assinada, mili",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_M10A17CF,Percentual de mulheres de 10 a 17 anos de idade que tiveram filhos,"Razão entre as mulheres de 10 a 17 anos de idade que tiveram filhos e o total de mulheres nesta faixa etária, multiplicada por 100.",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_MULCHEFEFIF014,"Percentual de mães chefes de família, sem fundamental completo e com pelo menos um filho menor de 15 anos de idade, no total de mães chefes de família","Razão entre o número de mulheres que são responsáveis pelo domicílio, não têm o ensino fundamental completo e têm pelo menos 1 filho de idade inferior a 15 anos morando no domicílio e o número total de mulheres chefes de família, multiplicada por 100. São",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_NESTUDA_NTRAB_MMEIO," Percentual de pessoas de 15 a 24 anos que não estudam, não trabalham e são vulneráveis à pobreza, na população total dessa faixa etária","Razão entre as pessoas de 15 a 24 anos que não estudam, não trabalham e são vulneráveis à pobreza e a população total nesta faixa etária, multiplicada por 100. Definem-se como vulneráveis à pobreza as pessoas que moram em domicílios com renda per capita i",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_OCUPDESLOC_1,Percentual de pessoas em domicílios vulneráveis à pobreza e que gastam mais de uma hora até o trabalho no total de pessoas ocupadas.,"Razão entre as pessoas que vivem em domicílios vulneráveis à pobreza (com renda per capita inferior a 1/2 salário mínimo de agosto de 2010) e que gastam mais de uma hora em deslocamento até o local de trabalho e e o total de pessoas ocupadas, multiplicada",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_RMAXIDOSO,Percentual de pessoas em domicílios vulneráveis à pobreza e dependentes de idosos,Razão entre as pessoas que vivem em domicílios vulneráveis à pobreza (com renda per capita inferior a 1/2 salário mínimo de agosto de 2010) e nos quais a maior parte da renda provém de moradores com 65 anos ou mais de idade e população total residente em ,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_SLUZ,% de pessoas em domicílios sem energia elétrica,"Razão entre as pessoas que vivem em domicílios sem energia elétrica e população total residente em domicílios particulares permanentes multiplicado por 100. 
+",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_VULNERA_NESTUDA_NTRAB_MMEIO," Percentual de pessoas de 15 a 24 anos que não estudam, não trabalham e são vulneráveis, na população vulnerável dessa faixa etária.","Razão entre as pessoas de 15 a 24 anos que não estudam, não trabalham e são vulneráveis à pobreza e a população vulnerável nessa faixa etária, multiplicado por 100. Define-se como vulnerável à pobreza a pessoa que mora em domicílio com renda per capita in",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_VULNERA_MULCHEFE,"Percentual de mães chefes de família, sem fundamental completo e com pelo menos um filho menor de 15 anos de idade, no total de mães chefes de família e com filho menor","Razão entre o número de mulheres que são responsáveis pelo domicílio, não têm o ensino fundamental completo e têm pelo menos 1 filho de idade inferior a 15 anos morando no domicílio e o número total de mulheres chefes de família com filho menor de 15 anos",IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_VULNERA_RMAXIDOSO,"% de pessoas vulneráveis e dependentes de idosos, no total de pessoasem domicílios vulneráveis e com idosos.",Razão entre as pessoas que vivem em domicílios vulneráveis à pobreza (com renda per capita inferior a 1/2 salário mínimo de agosto de 2010) e nos quais pelo menos metade da renda domicliar provém de moradores com 65 anos ou mais de idade e a população tot,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,T_VULNERA_OCUPDESLOC_13,"Percentual de pessoas em domicílios vulneráveis à pobreza e que gastam mais de uma hora até o trabalho no total de pessoas ocupadas, vulneráveis e que retornam diariamente do trabalho.",Razão entre as pessoas ocupadas de 10 anos ou mais de idade que vivem em domicílios vulneráveis à pobreza (com renda per capita inferior a 1/2 salário mínimo de agosto de 2010) e que gastam mais de uma hora em deslocamento até o local de trabalho e e o to,IPEA,VALOR,8.2,0
+DEINFO_IDH_UDH_2000_2010,HOMEM0A4,População masculina de 0 a 4 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM10A14,População masculina de 10 a 14 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM15A19,População masculina de 15 a 19 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM20A24,População masculina de 20 a 24 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM25A29,População masculina de 25 a 29 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM30A34,População masculina de 30 a 34 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM35A39,População masculina de 35 a 39 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM40A44,População masculina de 40 a 44 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM45A49,População masculina de 45 a 49 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM50A54,População masculina de 50 a 54 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM55A59,População masculina de 55 a 59 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM5A9,População masculina de 5 a 9 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM60A64,População masculina de 60 a 64 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM65A69,População masculina de 65 a 69 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM70A74,População masculina de 70 a 74 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEM75A79,População masculina de 75 a 79 anos de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMENS80,População masculina com 80 anos e mais de idade,População nesta faixa etária e do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,HOMEMTOT,População residente masculina,População total do sexo masculino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH0A4,População feminina de 0 a 4 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH10A14,População feminina de 10 a 14 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH15A19,População feminina de 15 a 19 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH20A24,População feminina de 20 a 24 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH25A29,População feminina de 25 a 29 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH30A34,População feminina de 30 a 34 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH35A39,População feminina de 35 a 39 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH40A44,População feminina de 40 a 44 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH45A49,População feminina de 45 a 49 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH50A54,População feminina de 50 a 54 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH55A59,População feminina de 55 a 59 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH5A9,População feminina de 5 a 9 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH60A64,População feminina de 60 a 64 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH65A69,População feminina de 65 a 69 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH70A74,População feminina de 70 a 74 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULH75A79,População feminina de 75 a 79 anos de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULHER80,População feminina com 80 anos e mais de idade,População nesta faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,MULHERTOT,População residente feminina,População total do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PEA,População economicamente ativa de 10 anos ou mais de idade,"População economicamente ativa. Corresponde ao número de pessoas nessa faixa etária que, na semana de referência do Censo, encontravam-se ocupadas no mercado de trabalho ou que, encontrando-se desocupadas, tinham procurado trabalho no mês anterior à data ",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PEA1014,População economicamente ativa de 10 a 14 anos de idade,"População economicamente ativa. Corresponde ao número de pessoas nessa faixa etária que, na semana de referência do Censo, encontravam-se ocupadas no mercado de trabalho ou que, encontrando-se desocupadas, tinham procurado trabalho no mês anterior à data ",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PEA1517,População economicamente ativa de 15 a 17 anos de idade,"População economicamente ativa. Corresponde ao número de pessoas nessa faixa etária que, na semana de referência do Censo, encontravam-se ocupadas no mercado de trabalho ou que, encontrando-se desocupadas, tinham procurado trabalho no mês anterior à data ",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PEA18M,População economicamente ativa de 18 anos ou mais de idade,"População economicamente ativa. Corresponde ao número de pessoas nessa faixa etária que, na semana de referência do Censo, encontravam-se ocupadas no mercado de trabalho ou que, encontrando-se desocupadas, tinham procurado trabalho no mês anterior à data ",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1,População de até 1 ano de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1114,População de 11 a 14 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1113,População de 11 a 13 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1214,População de 12 a 14 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO13,População de 1 a 3 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO15,População de 15 anos ou mais de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1517,População de 15 a 17 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1524,População de 15 a 24 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO1618,População de 16 a 18 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO18,População de 18 anos ou mais de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,Peso1820,População de 18 a 20 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,Peso1824,População de 18 a 24 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,Peso1921,População de 19 a 21 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO25,População de 25 anos ou mais de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO4,População de 4 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO5,População de 5 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO6,População de 6 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO610,População de 6 a 10 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,Peso617,População de 6 a 17 anos de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESO65,População de 65 anos ou mais de idade,População residente nessa faixa etária,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESOM1014,Mulheres de 10 a 14 anos de idade,População residente nessa faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESOM1517,Mulheres de 15 a 17 anos de idade,População residente nessa faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESOM15M,Mulheres de 15 anos ou mais de idade,População residente nessa faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESOM25M,Mulheres de 25 anos ou mais de idade,População residente nessa faixa etária e do sexo feminino,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESORUR,População rural,População residente na área rural,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESOTOT,População total,População residente total,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PESOURB,População urbana,População residente na área urbana,IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PIA,População de 10 anos ou mais de idade - Amostra,"População residente nessa faixa etária, obtida pela expansão do questionário da Amostra, a ser utilizada como referência nos indicadores do bloco de trabalho.",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PIA1014,População de 10 a 14 anos de idade - Amostra,"População residente nessa faixa etária, obtida pela expansão do questionário da Amostra, a ser utilizada como referência nos indicadores do bloco de trabalho.",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PIA1517,População de 15 a 17 anos de idade - Amostra,"População residente nessa faixa etária, obtida pela expansão do questionário da Amostra, a ser utilizada como referência nos indicadores do bloco de trabalho.",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,PIA18M,População de 18 anos ou mais de idade - Amostra,"População residente nessa faixa etária, obtida pela expansão do questionário da Amostra, a ser utilizada como referência nos indicadores do bloco de trabalho.",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,POP,População total que reside em domicílios particulares permanentes,"População residente em domicílios particulares permanentes. Exclui os residentes em domicílios coletivos, como pensões, hotéis, prisões, quartéis, hospitais. ",IPEA,VALOR,8.0,0
+DEINFO_IDH_UDH_2000_2010,I_ESCOLARIDADE,Subíndice de escolaridade da população adulta - IDHM Educação,"Subíndice que compõe o IDHM Educação, representando o nível de escolaridade da população adulta. É obtido a partir do indicador ""% de 18 anos ou mais com fundamental completo"".",IPEA,VALOR ,6.3,0
+DEINFO_IDH_UDH_2000_2010,I_FREQ_PROP,Subíndice de frequência escolar da população jovem - IDHM Educação,"Subíndice que compõe o IDHM Educação, representando a frequência de crianças e jovens à escola em  séries adequadas à sua idade.  É obtido através da média aritmética simples de 4  indicadores:  % de  5 a 6 anos na escola; % de 11 a 13 anos nos anos finai",IPEA,VALOR ,6.3,0
+DEINFO_IDH_UDH_2000_2010,IDHM,Índice de Desenvolvimento Humano Municipal,"Índice de Desenvolvimento Humano Municipal. Média geométrica dos índices das dimensões Renda, Educação e Longevidade, com pesos iguais.",IPEA,VALOR ,6.3,0
+DEINFO_IDH_UDH_2000_2010,IDHM_E,Índice de Desenvolvimento Humano Municipal - Dimensão Educação,"Índice sintético da dimensão Educação,  é um dos 3 índices que compõem o IDHM. É obtido através da média geométrica do subíndice de frequência escolar, com peso de 2/3, e do subíndice de escolaridade, com peso de 1/3.",IPEA,VALOR ,6.3,0
+DEINFO_IDH_UDH_2000_2010,IDHM_L,Índice de Desenvolvimento Humano Municipal  - Dimensão Longevidade,"Índice da dimensão Longevidade, é um dos 3 índices que compõem o IDHM. É obtido a partir do indicador Esperança de vida ao nascer, através da fórmula: [(valor observado do indicador) - (valor mínimo)] / [(valor máximo) - (valor mínimo)], onde os valores m",IPEA,VALOR ,6.3,0
+DEINFO_IDH_UDH_2000_2010,IDHM_R,Índice de Desenvolvimento Humano Municipal - Dimensão Renda,"Índice da dimensão Renda, é um dos 3 índices que compõem o IDHM. É obtido a partir do indicador Renda per capita, através da fórmula: [ln (valor observado do indicador) - ln (valor mínimo)] / [ln (valor máximo) - ln (valor mínimo)], onde os valores mínimo",IPEA,VALOR ,6.3,0
+DEINFO_IDH_UDH_2000_2010,CODDIST,Distrito - Codigo IBGE,Distrito - Codigo IBGE - varia de 1 a 96,IPEA,VALOR,2.0,0
+DEINFO_IDH_UDH_2000_2010,DISTRITO,Nome do Distrito,Nome do Distrito,IPEA,TEXTO,20,0
+DEINFO_IDH_UDH_2000_2010,REGIAO8,Divisão regional ,Divisão do município em 8 regiões,IPEA,TEXTO,8,0
+DEINFO_IDH_UDH_2000_2010,PREFREG,Prefeitura Regional,Nome da Prefeitura Regional,IPEA,TEXTO,24,0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+DEINFO_DM_CENSODEMOGRÁFICOINSTRUCAO01_2000,v99,,Mulheres residentes - não alfabetizadas - 55 a 59 anos de idade,IBGE,VALOR,8.2,0
+DEINFO_DM_CENSODEMOGRÁFICOINSTRUCAO01_2000,v100,,Mulheres residentes - não alfabetizadas - 60 a 64 anos de idade,IBGE,VALOR,8.2,0
+DEINFO_DM_CENSODEMOGRÁFICOINSTRUCAO01_2000,v101,,Mulheres residentes - não alfabetizadas - 65 a 69 anos de idade,IBGE,VALOR,8.2,0
+DEINFO_DM_CENSODEMOGRÁFICOINSTRUCAO01_2000,v102,,Mulheres residentes - não alfabetizadas - 70 a 74 anos de idade,IBGE,VALOR,8.2,0
+DEINFO_DM_CENSODEMOGRÁFICOINSTRUCAO01_2000,v103,,Mulheres residentes - não alfabetizadas - 75 a 79 anos de idade,IBGE,VALOR,8.2,0
+DEINFO_DM_CENSODEMOGRÁFICOINSTRUCAO01_2000,v104,,Mulheres residentes - não alfabetizadas - 80 anos de idade ou mais,IBGE,VALOR,8.2,0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"Nome do arquivo, que deve ser igual para todos os anos. O que varia é o ano: 2009, 2010, 2011, 2012 etc.","Com exceção de NOMESC, aqui estão indicadas as variáveis de georreferenciamento comuns a todos os arquivos. Podem ser copiadas, da forma como estão aqui, nesta ordem, em cada dicionário de dados (e, portanto, em cada arquivo).",,,,"Uma das 3 alternativas: texto, número ou categoria",Nº de caracteres do campo destinado ao preenchimento da variável.,0 não sigilosa;     1 variável sigilosa
