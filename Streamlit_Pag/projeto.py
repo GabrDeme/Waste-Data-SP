@@ -3,6 +3,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import plotly.express as px
+import numpy as np
 import os
 
 # Configurações iniciais
@@ -18,12 +19,20 @@ with st.sidebar:
         default_index=0
     )
 
+# df_zonas = df.query()
 # Função: Tela Limpa Brasil
 def limp_br():
     st.title("Instituto Limpa Brasil")
     st.subheader("O Instituto Limpa Brasil foi fundado pela empresa Atitude Brasil em 2010. " \
     "Somos uma organização sem fins lucrativos que atua no Brasil como parceira do movimento global Let’s do It. " \
     "Colaborando localmente para o crescimento de ações de limpeza por um mundo sem lixo, mobilizando pessoas e organizações em defesa do descarte adequado de resíduos.")
+    
+    y = np.array([35, 25, 25, 15])
+    mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
+
+    fig_pizza = px.pie(y, labels = mylabels)
+    st.plotly_chart(fig_pizza, use_container_width=True) 
+
 
 # Função: Tela Ecoponto
 def ecoponto():
