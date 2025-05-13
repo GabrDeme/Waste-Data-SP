@@ -90,6 +90,7 @@ def pontosEntregaVoluntaria():
     
     try:
         st.title("Pontos de Entrega Voluntária (PEVs) em São Paulo")
+        st.subheader("PEVs (Pontos de Entrega Voluntária) são locais disponibilizados pela prefeitura onde os cidadãos podem descartar voluntariamente materiais recicláveis, como papel, plástico, vidro e metal. Esses pontos contribuem para a coleta seletiva, a redução do descarte irregular e a preservação do meio ambiente.")
         df = pd.read_excel(caminho_arquivo)
         
         st.sidebar.header("Filtro por Região")
@@ -138,7 +139,7 @@ def pontosEntregaVoluntaria():
         )
         
         fig_map = px.scatter_map(
-                df,
+                df_selecao,
                 lat="latitude",
                 lon="longitude",
                 size="pev_quanti",
@@ -159,7 +160,7 @@ def pontosEntregaVoluntaria():
                     "pev_quanti": "Quantidade de PEV",
                     "pev_nome": "Nome do PEV",
                     "pev_endere": "Endereço"
-                }
+                },
         )
 
         fig_map.update_layout(
@@ -168,8 +169,11 @@ def pontosEntregaVoluntaria():
             margin={"r":0, "t":0, "l":0, "b":0}
         )
 
-        st.plotly_chart(fig_barras, use_container_width=True)
-        st.plotly_chart(fig_map, use_container_width=True)
+        if df_agrupado.empty:
+            st.warning("Nenhuma região selecionada ou não há dados para exibir.")
+        else:
+            st.plotly_chart(fig_barras, use_container_width=True)
+            st.plotly_chart(fig_map, use_container_width=True)
         
     except Exception as e:
         st.error(f"Erro ao carregar os dados: {e}")
