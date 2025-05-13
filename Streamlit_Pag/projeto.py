@@ -85,6 +85,95 @@ def ecoponto():
     # Exibir gráfico
     st.plotly_chart(fig_barras, use_container_width=True)
 
+def pontosEntregaVoluntaria():
+    caminho_arquivo = 'Dados_Geosampa_Prefeitura/bDADOS_TRATADOS/PONTO DE ENTREGA VOLUNTARIA.xlsx'
+    
+    try:
+        st.title("Pontos de Entrega Voluntária (PEVs) em São Paulo")
+        df = pd.read_excel(caminho_arquivo)
+        
+        st.sidebar.header("Filtro por Região")
+        
+        mapeamento_zonas = {
+            'Zona Leste': 'Zona Leste',
+            'Zona Norte': 'Zona Norte',
+            'Zona Sul': 'Zona Sul',
+            'Zona Oeste': 'Zona Oeste',
+            'Centro': 'Centro',
+            'Zona Sudeste': 'Zona Sul',
+            'Zona Noroeste': 'Zona Norte',  
+        }
+        
+        df['região_agrupada'] = df['região'].replace(mapeamento_zonas)
+        
+        regioes = st.sidebar.multiselect(
+            "Selecione as regiões:",
+            options=df['região_agrupada'].unique(),
+            default=df['região_agrupada'].unique(),
+            key="regiao"
+        )
+        
+        df_selecao = df.query("região_agrupada in @regioes")
+        
+        df_agrupado = df_selecao.groupby('região_agrupada')['pev_quanti'].sum().reset_index()
+
+        fig_barras = px.bar(
+            df_agrupado,
+            x="região_agrupada",
+            y="pev_quanti",
+            color="região_agrupada",
+            title="Quantidade Total de PEV por Região de São Paulo",
+            labels={
+                "região_agrupada": "Região",
+                "pev_quanti": "Quantidade de PEV"
+            },
+            text_auto=True
+        )
+
+        fig_barras.update_layout(
+            xaxis_title="Região de São Paulo",
+            yaxis_title="Quantidade Total de PEV",
+            showlegend=False,
+            height=500
+        )
+        
+        fig_map = px.scatter_map(
+                df,
+                lat="latitude",
+                lon="longitude",
+                size="pev_quanti",
+                color="pev_subprf",
+                hover_name="pev_nome",
+                hover_data={
+                    "pev_endere": True,
+                    "pev_quanti": True,
+                    "latitude": False,
+                    "longitude": False
+                },
+                zoom=10,
+                height=600,
+                size_max=30,
+                color_discrete_sequence=px.colors.qualitative.Set2,
+                labels={
+                    "pev_subprf": "Subprefeitura",
+                    "pev_quanti": "Quantidade de PEV",
+                    "pev_nome": "Nome do PEV",
+                    "pev_endere": "Endereço"
+                }
+        )
+
+        fig_map.update_layout(
+            mapbox_style="open-street-map",
+            mapbox_center={"lat": -23.55, "lon": -46.63},
+            margin={"r":0, "t":0, "l":0, "b":0}
+        )
+
+        st.plotly_chart(fig_barras, use_container_width=True)
+        st.plotly_chart(fig_map, use_container_width=True)
+        
+    except Exception as e:
+        st.error(f"Erro ao carregar os dados: {e}")
+
 # Execução da página conforme seleção do menu
 if seleted == "Home":
     st.title("Bem-vindo ao Painel")
@@ -99,7 +188,7 @@ elif seleted == "Pontos Revitalizados":
     st.title("Pontos Revitalizados")
 
 elif seleted == "Pontos de Entrega Voluntaria":
-    st.title("Pontos de Entrega Voluntária")
+    pontosEntregaVoluntaria()
 
 elif seleted == "Sobre":
     st.title("Sobre este Projeto")
